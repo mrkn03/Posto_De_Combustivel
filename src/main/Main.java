@@ -123,10 +123,7 @@ public class Main {
         System.out.print("ID do Funcionário responsável pela venda: ");
         int idFuncionario = sc.nextInt();
 
-        Funcionario funcionario = funcionarios.stream()
-                .filter(f -> f.getId() == idFuncionario)
-                .findFirst()
-                .orElse(null);
+        Funcionario funcionario = funcionarios.stream().filter(f -> f.getId() == idFuncionario).findFirst().orElse(null);
 
         if (funcionario == null) {
             System.out.println("Funcionário não encontrado!");

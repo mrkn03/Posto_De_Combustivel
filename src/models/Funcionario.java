@@ -25,7 +25,6 @@ public class Funcionario extends Pessoa{
         System.out.println("Funcionario " + nome + " removido com sucesso.");
     }
 
-    // Getters e Setters adicionais
     public String getCargo() {
         return cargo;
     }

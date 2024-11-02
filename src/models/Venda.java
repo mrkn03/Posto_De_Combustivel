@@ -34,7 +34,6 @@ public class Venda implements Relatorio {
     }
 
     public String gerarRelatorioVendaPorPeriodo(Date dataInicio, Date dataFim) {
-        // Simplificação da implementação
         return "Relatório de vendas do período de " + dataInicio + " a " + dataFim;
     }
 }
