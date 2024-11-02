@@ -6,7 +6,6 @@ public class Produto {
     private double preco;
     public int quantidadeEmEstoque;
 
-    // Construtor
     public Produto(int codigo, String nome, double preco, int quantidadeEmEstoque) {
         this.codigo = codigo;
         this.nome = nome;
@@ -28,7 +27,6 @@ public class Produto {
         System.out.println("Produto " + nome + " removido com sucesso.");
     }
 
-    // Getters e Setters adicionais
     public int getCodigo() {
         return codigo;
     }

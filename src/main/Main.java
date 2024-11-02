@@ -141,7 +141,7 @@ public class Main {
 
             if (produto != null) {
                 itensVenda.add(produto);
-                estoque.atualizarEstoque(produto, -1); // Reduz um item no estoque
+                estoque.atualizarEstoque(produto, -1);
             } else {
                 System.out.println("Produto não encontrado!");
             }

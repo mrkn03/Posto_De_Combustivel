@@ -8,7 +8,6 @@ public class Fornecedor extends EntidadeRegistravel {
     private String endereco;
     private String contato;
 
-    // Construtor
     public Fornecedor(int id, String nome, String endereco, String contato) {
         this.id = id;
         this.nome = nome;

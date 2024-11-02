@@ -4,7 +4,6 @@ public class Funcionario extends Pessoa{
     private String cargo;
     private double salario;
 
-    // Construtor
     public Funcionario(int id, String nome, String cargo, double salario) {
         super(id, nome);
         this.cargo = cargo;
